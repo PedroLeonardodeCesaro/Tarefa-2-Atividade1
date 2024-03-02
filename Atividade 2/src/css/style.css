@@ -1,0 +1,332 @@
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 255, 244);
+    background: radial-gradient(circle, rgba(0, 255, 244, 1) 0%, rgba(1, 39, 71, 1) 100%);
+    
+}
+
+p {
+    font-weight: 700;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.menu {
+    margin: 0px;
+    height: 60px;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8183648459383753) 0%, rgba(3, 77, 82, 0.6166841736694677) 50%, rgba(0, 0, 0, 0.7539390756302521) 100%);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-logo{
+    width: 50px;
+    border-radius: 45px;
+    border: 5px solid black;
+    margin: 0;
+}
+
+.botao#inicio {
+    border-radius: 27px;
+    width: 100px;
+    height: 50px;
+    color: gold;
+    background-color: rgb(6, 85, 85);
+    border: 5px solid black;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    margin-right: 20px;
+    margin-left: calc(100vw - 40%);
+}
+
+.botao#inicio:hover {
+    transform: scale(1.1);
+}
+
+
+
+.botao#servicos {
+    border-radius: 27px;
+    width: 100px;
+    height: 50px;
+    color: gold;
+    background-color: rgb(6, 85, 85);
+    border: 5px solid black;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    margin-right: 17px;
+}
+
+.botao#servicos:hover {
+    transform: scale(1.1);
+}
+
+.botao#sobre {
+    border-radius: 27px;
+    width: 100px;
+    height: 50px;
+    color: gold;
+    background-color: rgb(6, 85, 85);
+    border: 5px solid black;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    margin-right: 15px;
+}
+
+.botao#sobre:hover {
+    transform: scale(1.1);
+}
+
+.botao#quemsomos {
+    border-radius: 27px;
+    width: 150px;
+    height: 50px;
+    color: gold;
+    background-color: rgb(6, 85, 85);
+    border: 5px solid black;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    margin-right: 20px;
+}
+
+.botao#quemsomos:hover {
+    transform: scale(1.1);
+}
+
+#div1 {
+    width: 700px;
+    height: calc(100vh - 60px);
+    position: absolute;
+    right: 0;
+    color: aqua;
+    font-size: 27px;
+    margin-right: 100px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin-right: 200px;
+    margin-top: 30px;
+
+}
+
+.bg#bg1 {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.ts-logo {
+    z-index: -1;
+    position: absolute;
+    left: 10%;
+    margin: 25px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 10%;
+    width: 500px;
+}
+
+#div2 {
+    width: 850px;
+    height: calc(100vh - 60px);
+    position: absolute;
+    right: 0;
+    color: aqua;
+    font-size: 27px;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin-right: 200px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.bg#bg2 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    bottom: 0;
+}
+
+.bg#bg2-1{
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: absolute;
+    z-index: -1;
+    right: 100;
+}
+
+#div3 {
+    width: 75%;
+    height: 100vh;
+    position: absolute;
+    color: aqua;
+    font-size: 27px;
+    margin-left: 100px;
+    margin-top: 70px;
+    text-shadow: 1px 1px 2px black;
+    padding: 15px;
+    background-color: rgb(0, 0, 0, 0.7);
+    right: 12%;
+}
+
+.bg#bg3 {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+
+}
+
+#div4 {
+    width: 500px;
+    height: 100vh;
+    position: absolute;
+    color: aqua;
+    left: 2%;
+    margin-left: 100px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 27px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.bg#bg4 {
+    width: calc(100vw - 100px);
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+
+}
+
+.hhhhh {
+    flex-direction: row;
+    display: flex;
+}
+
+.pagina{
+    opacity: 0;
+    z-index: -1;
+}
+
+.pagina.selecionada{
+    opacity: 1;
+    z-index: 1;
+}
+
+.botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #d9d9d9;
+}
+
+.botao{
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.formulario{
+    position: absolute;
+    right: 15%;
+    top: 100px;
+    margin: auto;
+    opacity: 1;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.field label,.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input#nao{
+    margin-left: 30px;
+}
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
